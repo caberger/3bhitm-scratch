@@ -35,7 +35,7 @@ metadata:
     nfs.io/storage-path: "postgresql-data"
 spec:
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   storageClassName: standard
   resources:
     requests:
